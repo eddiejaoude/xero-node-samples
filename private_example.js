@@ -15,5 +15,5 @@ const config = {
     })
 
     const res = await xero.contacts.get();
-    console.log("First Contac: ", res.Contacts[0].Name);
+    console.log("First Contact: ", res.Contacts[0].Name);
 })();
